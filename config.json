@@ -1,0 +1,16 @@
+{
+  "app_settings": {
+    "changelog": "修改了软件整体结构",
+    "": ""
+  },
+  "configs": {
+  //"下载源" 表示从某个地方获取数据或程序的原始版本。在此应用中，填写从互联网上下载文件的网址。
+  "url": "https://codeload.github.com/lvzhiyuan0925/lvzhiyuan0925-pypi/zip/refs/heads/main",//下载源，实际应用替换成你的。
+  "path_1": "d:\\os",//我的世界 Mod 文件夹，也可以用于导入其他游戏的 Mod/能导入的都可以。在 Windows 系统中，你可以使用 \\ 或 / 代替 \。
+  "path_2": null,//路径2，如果没有则填写null，python解释器会识别为None（和null一样，也是无），按照标准来填，不然程序会报错，如(错误示范)path_2 = null path_3 = 路径 。
+  "path_3": null, //第三个路径，如果没有则填写null，和上一个一样，此外，作者不会添加更多路径，如果你想添加更多路径，请查看源代码，自行编写。
+  "sleep": false, //开启\关闭等待，推荐开(输入true)，以便取消操作（退出应用），如果你注重效率的话关闭(输入false)。
+  "sleep_time": 1, //等待时间（秒），推荐1s，给你足够的时间取消操作
+  "notification": true //开(true)\关(false)安装完成通知。
+  }
+}
